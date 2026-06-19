@@ -20,3 +20,6 @@ urlpatterns = [
         include('resumes.urls')
     ),
 ]
+
+
+
