@@ -36,38 +36,31 @@ A Full Stack Resume Builder Application developed using React.js, Django, and Dj
 
 ## Project Structure
 
+```text
 Resume-Builder/
-
 ├── frontend/
-
 │   ├── src/
-
 │   ├── public/
-
 │   └── package.json
-
 │
-
 ├── backend/
-
 │   ├── manage.py
-
 │   ├── resumes/
-
 │   └── requirements.txt
-
 │
-
 └── README.md
+```
 
 ## Installation & Setup
 
 ### Backend Setup
+
+```bash
 cd backend
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-
+```
 
 ### Frontend Setup
 ```bash
